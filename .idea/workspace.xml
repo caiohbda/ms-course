@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef2d147-2608-446e-932e-d12e3ca8ac86" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/microservices/hrpayroll/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/microservices/hrpayroll/services/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/main/java/com/microservices/hrworker/HrworkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservices/hrworker/HrWorkerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/main/java/com/microservices/hrworker/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservices/hrworker/entities/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/main/java/com/microservices/hrworker/repositories/WorkerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservices/hrworker/repositories/WorkerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/main/java/com/microservices/hrworker/resources/WorkerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/java/com/microservices/hrworker/resources/WorkerResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hrworker/src/test/java/com/microservices/hrworker/HrworkerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-worker/src/test/java/com/microservices/hrworker/HrworkerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hr-payroll/src/main/java/com/microservices/hrpayroll/HrPayrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hr-payroll/src/main/java/com/microservices/hrpayroll/HrPayrollApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
