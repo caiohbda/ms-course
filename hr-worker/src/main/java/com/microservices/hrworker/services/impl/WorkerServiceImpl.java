@@ -1,32 +1,29 @@
-package com.microservices.hrworker.resources;
+package com.microservices.hrworker.services.impl;
 
 import com.microservices.hrworker.entities.Worker;
 import com.microservices.hrworker.repositories.WorkerRepository;
-import org.hibernate.jdbc.Work;
+import com.microservices.hrworker.services.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@RestController
-@RequestMapping(value = "/workers")
-public class WorkerResource {
+@Service
+public class WorkerServiceImpl implements WorkerService {
+
     @Autowired
     private WorkerRepository repository;
 
-    @GetMapping
+    @Override
     public ResponseEntity<List<Worker>> findAll() {
         List<Worker> list = repository.findAll();
         return ResponseEntity.ok(list);
     }
 
-    @GetMapping(value = "/{id}")
-    public ResponseEntity<Worker> findById(@PathVariable Long id) {
+    @Override
+    public ResponseEntity<Worker> findById(Long id) {
         Optional<Worker> optionalWorker = repository.findById(id);
 
         if (optionalWorker.isPresent()) {
