@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.microservices</groupId>
-    <artifactId>hrpayroll</artifactId>
+    <artifactId>hreurekaserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hrpayroll</name>
+    <name>hreurekaserver</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
@@ -31,12 +31,6 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -46,18 +40,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-loadbalancer</artifactId>
-            <version>4.2.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.eureka</groupId>
-            <artifactId>eureka-client</artifactId>
-            <version>1.10.17</version>
         </dependency>
     </dependencies>
 
